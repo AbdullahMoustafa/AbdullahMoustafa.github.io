@@ -1,0 +1,62 @@
+body{
+	background-color: #111111;
+}
+#img{
+	border-radius: 35px;
+	width: 225px;
+	margin-top: 10px;
+/*	border: solid #8D959D ;*/
+}
+.card{
+	background-color: black;
+	border-radius: 10px;
+	color: #ADB5BD;
+	padding: 10px;
+}
+#card:hover{
+	animation:jump 0.2s linear forwards  ;
+}
+@keyframes jump{
+	from{
+		margin-top:0 ;
+		box-shadow: 0 ;
+	}
+	to{
+  		box-shadow: 0 5px 9px #B6BDC5, 0 7px 21px #B6BDC5;
+		margin-top: -10px;
+		background-color: #B6BDC5;
+		border-radius: 15px;
+		color: black
+	}
+} 
+#button1{
+	color: black;
+	border-color: black; 
+	border-radius:100px;
+}
+#button1:hover{
+	border-radius:100px;
+	animation:animation 0.2s linear forwards  ;
+	
+}
+@keyframes animation{
+	from{
+		border-radius:100px;
+		border: none;
+	}
+	to{
+		color: #ffff;
+		border: black;
+		border-radius:100px;
+		background-color:  black;
+		
+	}
+}
+#Contact{
+	width: 750px;
+	padding: 15px;
+	background-color: #191919;
+	margin-top: 50px;
+	border-radius: 13px;
+	color: white;
+}
